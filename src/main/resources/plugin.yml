@@ -1,0 +1,12 @@
+name: Copper_Oxidation
+version: '${version}'
+main: CopperOxidationPlugin.CopperOxidation
+api-version: 1.19
+author: hunter_0269
+commands:
+  getoxidationstick:
+    description: Gives the player an oxidation stick
+    usage: /getoxidationstick
+    permission: oxidationstick.get
+listeners:
+  - CopperOxidationPlugin.listeners.PlayerInteractListener
